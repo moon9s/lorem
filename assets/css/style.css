@@ -1,0 +1,864 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212b2b;
+}
+
+body,
+input,
+button {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-family: "PT Serif", serif;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+header>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header>ul {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header>ul a {
+    color: white;
+    text-decoration: none;
+}
+
+header>p {
+    color: white;
+    width: 20%;
+}
+
+
+/* section 1 */
+.lorem {
+    padding: 10px 10px;
+    max-width: 1400px;
+    margin: 35px auto 60px;
+}
+
+.lorem h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.lorem p {
+    color: #ccc;
+    font-size: 32px;
+    font-style: italic;
+    width: 50%;
+}
+
+/* section 2 */
+.generator {
+    padding: 0 10px;
+    margin: 0 auto 70px;
+    max-width: 1400px;
+    display: flex;
+    gap: 25px;
+}
+
+.generator>div:first-of-type {
+    width: 70%;
+}
+
+.generator>div:first-of-type>div:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+}
+
+.generator>div:first-of-type>div:last-of-type {
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    padding: 30px;
+    margin: 30px 0 0 auto;
+}
+
+.generator>div:first-of-type>div:last-of-type>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.generator>div:last-of-type {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    height: 220px;
+    margin-top: 60px;
+}
+
+.generator>div:last-of-type h3 {
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.generator>div:last-of-type p {
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.generator>div:first-of-type>div:last-of-type>div>input {
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.generator>div:first-of-type>div:last-of-type>p {
+    color: #444444;
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.generator>div:first-of-type>div:last-of-type>div>input:focus,
+.generator>div:first-of-type>div:last-of-type>div>select:focus {
+    outline: 1px solid orangered;
+    border: none;
+}
+
+.generator>div:first-of-type>div:last-of-type>div>select {
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.generator>div:first-of-type>div:last-of-type>div>button:first-of-type {
+    padding: 10px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+}
+
+.generator>div:first-of-type>div:last-of-type>div>button:first-of-type:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.generator>div:first-of-type>div:last-of-type>div>button:last-of-type {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    margin-left: auto;
+    display: block;
+}
+
+
+.lorem1 {
+    padding: 0  10px;
+    max-width: 1400px;
+    margin:  0  auto  ;
+   
+    
+}
+
+.lorem1 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem1 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem1 > div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem1 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem1 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+
+
+   
+
+    .right { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 300px;
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+    
+.lorem3 {
+    padding: 0 10px;
+    max-width: 1400px;
+    margin:  0  auto  ;
+    
+}
+
+.lorem3 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem3 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem3 > div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem3 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem3 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+
+
+   
+
+    .right1 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 400px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+    .lorem4 {
+    padding: 0 10px;
+    max-width: 1400px;
+    margin:  0  auto  ;
+    
+}
+
+.lorem4 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem4 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem4 > div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem4 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem4 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+
+
+   
+
+    .right2 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 600px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+     .lorem4 {
+    padding: 0 10px;
+    max-width: 1400px;
+    margin:  0  auto  ;
+    
+}
+
+.lorem5 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem5 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem5 > div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem5 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem5 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+
+
+   
+
+    .right3 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 600px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+    
+.lorem6 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem6 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem6 > div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem6 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem6 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+
+
+   
+
+    .right4 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 150px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+    .lorem7 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem7 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem7> div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem7 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem7 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+
+
+   
+
+    .right5 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 500px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+    
+    .lorem8 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem8 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem8> div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem8 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem8 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+    .right6 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 100px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+
+    
+    .lorem9 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem9 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem9> div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem9 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem9 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+    .right7 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 150px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+
+      .lorem10 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.lorem10 p:first-of-type {
+    color: #ccc;
+    font-size: 20px;
+    font-style: italic;
+    width: 80%;
+   
+   
+    
+}
+
+
+
+    .lorem10> div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+    }
+
+
+    .lorem10 > div > img {
+       width: 200px;
+       padding-right: 30px;
+       
+    }
+
+
+    .lorem10 >div > p:last-of-type{
+    color: #ccc;
+    font-size: 15px;
+    display: block;
+    width: 100px;
+    font-family: unset;
+    }
+
+
+    .right8 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        width: 1400px;
+        font-family: "open sans";
+        padding-top: 150px;
+      
+         
+
+    }
+
+   #font2{
+    font-family: "open sans";
+    }
+
+
+    #img{
+        display: block;
+       
+    }
+
+
+    .p2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 15px;
+        font-family: "open sans";
+        
+    }
+    footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    color: #636363;
+}
+
+footer>a {
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer>ul {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer>ul a {
+    color:rgb(107, 107, 107);;
+    text-decoration: none;
+}
+
+footer>p {
+    color:rgb(107, 107, 107);;
+    width: 20%;
+}
